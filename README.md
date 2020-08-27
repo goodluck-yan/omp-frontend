@@ -1,13 +1,13 @@
-# OpenCMDB
+# OMP
 
-- 官网网站： http://opencmdb.cn
-- 产品定位：全开源轻量级CMDB项目
-- 我们的口号：让中国所有的运维工程师不再使用Excel管理资产！
-- 项目成员：赵班长（PO）、母红英（Dev）、张亚庆（Dev）、张龙（Dev）
+- 官网网站： 
+- 产品定位：自动化运维平台项目
+- 我们的口号：
+- 项目成员：
 
-# OpenCMDB前端项目介绍
+# OMP前端项目介绍
 
-    OpenCMDB采用前后端分离的开发模式，前端使用Vue.js + Elementui进行开发。
+    OMP采用前后端分离的开发模式，前端使用Vue.js + Elementui进行开发。
 
 # Dashboard截图
 
