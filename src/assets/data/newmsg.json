@@ -1,0 +1,90 @@
+{
+  "jsonrpc": "2.0",
+  "result": [{
+    "triggerid": "16272",
+    "description": "宕机或者网络中断",
+    "status": "0",
+    "value": "1",
+    "priority": "4",
+    "lastchange": "1569829607",
+    "recovery_mode": "0",
+    "state": "0",
+    "groups": [{
+      "groupid": "21",
+      "name": "收费亭"
+    }],
+    "hosts": [{
+      "hostid": "10367",
+      "host": "windows7-219.135.168.198"
+    }]
+  }, {
+    "triggerid": "15919",
+    "description": "宕机或者网络中断",
+    "status": "0",
+    "value": "1",
+    "priority": "4",
+    "lastchange": "1563266994",
+    "recovery_mode": "0",
+    "state": "0",
+    "groups": [{
+      "groupid": "37",
+      "name": "虚拟化[192.168.9.60]"
+    }],
+    "hosts": [{
+      "hostid": "10312",
+      "host": "cacti-192.168.69.29"
+    }]
+  }, {
+    "triggerid": "15671",
+    "description": "宕机或者网络中断",
+    "status": "0",
+    "value": "1",
+    "priority": "4",
+    "lastchange": "1538959525",
+    "recovery_mode": "0",
+    "state": "0",
+    "groups": [{
+      "groupid": "29",
+      "name": "集团、园区办公专用"
+    }],
+    "hosts": [{
+      "hostid": "10313",
+      "host": "call-192.168.31.253"
+    }]
+  }, {
+    "triggerid": "15674",
+    "description": "宕机或者网络中断",
+    "status": "0",
+    "value": "1",
+    "priority": "4",
+    "lastchange": "1531117467",
+    "recovery_mode": "0",
+    "state": "0",
+    "groups": [{
+      "groupid": "29",
+      "name": "集团、园区办公专用"
+    }],
+    "hosts": [{
+      "hostid": "10314",
+      "host": "conference-192.168.10.236"
+    }]
+  }, {
+    "triggerid": "15922",
+    "description": "宕机或者网络中断",
+    "status": "0",
+    "value": "1",
+    "priority": "4",
+    "lastchange": "1530060806",
+    "recovery_mode": "0",
+    "state": "0",
+    "groups": [{
+      "groupid": "37",
+      "name": "虚拟化[192.168.9.60]"
+    }],
+    "hosts": [{
+      "hostid": "10343",
+      "host": "Window2008-192.168.10.27"
+    }]
+  }],
+  "id": 1
+}

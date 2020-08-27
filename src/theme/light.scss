@@ -1,0 +1,99 @@
+$gray: #edf2f6; // body
+$white: #fff;  // 侧边栏
+$blue: #4082e6; // navbar
+$black: #252a2f; // navbar.new + 侧边栏
+
+
+$navbarHover: #3978D5; // navbarhover的颜色
+
+$light-gray: #f6f9fb;
+
+$font-color: #303133;
+
+// my-dialog
+$dialog-bg: #fff;
+$border-color: #e4e7ed;
+$close-color: #909399;
+$hover-color: #409eff;
+
+// typeList
+$light-blue: #ecf5ff;
+
+.light-theme {
+	background: $gray;
+	// layout
+	.theme-navbar-container {
+		background: $black;
+	}
+	.theme-layout-left {
+		background: $black;
+	}
+  .el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active,
+  .el-menu-item.is-active{
+    background: $light-blue;
+  }
+	
+	.theme-bread-crumb {
+		background: $light-gray;
+	}
+	.theme-page {
+		background: $white;
+	}
+
+	// my-dialog
+	.theme-dialog {
+		background: $dialog-bg;
+		.theme-dialog-close {
+			color: $close-color;
+			&:hover {
+        color: $hover-color;
+      }
+		}
+		.theme-dialog-header {
+			border-bottom: 1px solid $border-color;
+		}
+		.theme-dialog-footer {
+			border-top: 1px solid $border-color;
+		}
+	}
+
+	// 分组属性
+	.theme-group {
+		color: $font-color;
+	}
+
+	// 拖拽属性类型区域
+	.theme-edit-wrap {
+		.right {
+			.right-head, .right-tips {
+        background-color: $light-blue;
+      }
+      .right-tips {
+        border: 1px dashed $blue;
+      }
+      .right-wrap {
+      	.right-drag-container {
+	      	.options {
+	      		background-color: $blue;
+	      	}
+      	}
+      }
+		}
+	}
+
+	// 仓库-数据录入-折叠面板
+	.theme-instance-form {
+		.el-collapse-item__header {
+			background: $light-blue;
+		}
+	}
+
+	// 侧边栏
+	.theme-sidebar {
+		.el-menu-item-group {
+			.el-menu-item-group__title {
+				color: $font-color;
+			}
+		}
+	}
+}

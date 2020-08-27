@@ -1,0 +1,52 @@
+{
+    "publishJobs":[{
+        "id":1,
+        "time":"2019-10-01 09:30",
+        "description":"这是一个爬取新闻的任务",
+        "publishman":"张三",
+        "status":"运行"
+    }, 
+    {
+        "id":2,
+        "time":"2019-10-02 11:30",
+        "description":"这是一个自动重启任务",
+        "publishman":"李四",
+        "status":"停止"
+    },
+    {
+        "id":3,
+        "time":"2019-10-03 09:30",
+        "description":"这是一个爬取新闻的任务",
+        "publishman":"王五",
+        "status":"告警"
+    },
+    {
+        "id":3,
+        "time":"2019-10-03 09:30",
+        "description":"这是一个爬取新闻的任务",
+        "publishman":"王五",
+        "status":"告警"
+    },
+    {
+        "id":3,
+        "time":"2019-10-03 09:30",
+        "description":"这是一个爬取新闻的任务",
+        "publishman":"王五",
+        "status":"告警"
+    },
+    {
+        "id":3,
+        "time":"2019-10-03 09:30",
+        "description":"这是一个爬取新闻的任务",
+        "publishman":"王五",
+        "status":"告警"
+    },
+    {
+        "id":4,
+        "time":"2019-10-04 09:30",
+        "description":"这是一个爬取新闻的任务",
+        "publishman":"赵六",
+        "status":"运行"
+    }
+    ]
+}
